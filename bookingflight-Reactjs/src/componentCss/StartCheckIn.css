@@ -1,0 +1,29 @@
+.CheckIn-class {
+  text-align: center;
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  background-color: #7289a8;
+  border-radius: 20px;
+  /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
+/* .CheckIn-class:hover {
+  background-color: #dcc5b8;
+} */
+p {
+  color: brown;
+}
+.CheckIn-class-EnterBooking-Submit {
+  margin: 30px;
+}
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+}
+h3 {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+}

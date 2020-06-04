@@ -1,0 +1,44 @@
+.delete-Id {
+  /* text-decoration: underline white; */
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* .checkIn-Body {
+  } */
+img {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.delete-Body {
+  background-color: #7289a8;
+  /* margin-top: 40px;
+    margin-bottom: 40px; */
+  text-align: center;
+  color: white;
+}
+h2 {
+  /* text-decoration: underline white; */
+  color: white;
+  text-shadow: 2px 2px 5px red;
+  padding-top: 20px;
+}
+
+h4 {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+  padding-top: 10px;
+}
+.Confirmation-delete {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.Confirmation-delete-click {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}

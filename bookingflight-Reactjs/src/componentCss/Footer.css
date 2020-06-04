@@ -1,0 +1,100 @@
+/* .py-3 {
+  background-color: var(--darkGrey);
+  /* margin: 0 auto; */
+/* align-items: center; */
+/* display: inline; */
+/* justify-content: center; */
+/* display: flex; */
+/* } */
+.main-footer {
+  background-color: #a9a9ab;
+  /* background-color: var(--darkGrey); */
+
+  padding: 0px;
+  margin: 0px;
+}
+.footer {
+  background-color: var(--darkGrey);
+  color: black;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+/* p {
+  color: brown;
+} */
+
+.iconi {
+  font-size: 1.5rem;
+  color: #3b5998;
+  transition: var(--mainTranstion);
+}
+.iconic {
+  font-size: 1.5rem;
+  color: #00acee;
+  transition: var(--mainTranstion);
+}
+.iconics {
+  font-size: 1.5rem;
+  color: #0e76a8;
+  transition: var(--mainTranstion);
+}
+.iconee {
+  color: #ff759e;
+  font-size: 1.5rem;
+  transition: var(--mainTranstion);
+}
+/* .iconi.iconic.iconics.iconee:hover {
+  cursor: pointer;
+} */
+.text-capitalize {
+  text-align: center;
+}
+ul li {
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.list-unstyled a {
+  color: black;
+  text-align: center;
+}
+
+.list-unstyled a:hover {
+  color: red;
+  text-align: center;
+}
+.col-sm {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.head-footer {
+  text-align: center;
+  line-height: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+  position: relative;
+  color: black;
+}
+.col,
+.row {
+  text-align: center;
+  font-weight: normal;
+}
+p {
+  font-size: 13px;
+}
+.container {
+  text-align: center;
+}

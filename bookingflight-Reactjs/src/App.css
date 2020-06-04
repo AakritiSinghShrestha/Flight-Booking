@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* globals */
+body {
+  padding-top: 66px;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+
+/* h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+} */
+
+/* .btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}
+.loading {
+  text-align: center;
+  margin-top: 3rem;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: var(--offWhite);
+  z-index: 1;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--primaryColor);
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  list-style-type: none;
+}
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: var(--mainBlack);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
+.nav-links a:hover {
+  color: var(--primaryColor);
+}
+
+.show-nav {
+  height: 100px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+.defaultParents {
+  height: 800px;
+  background: url("./images/mountain3.jpg") center/cover no-repeat;
+  filter: drop-shadow(0 0 0.75rem green);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sonParents {
+  min-height: 700px;
+  background: url("./images/bhaudha.jpg") center/cover no-repeat;
+  filter: drop-shadow(0 0 0.75rem yellow);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daughterParents {
+  min-height: 800px;
+  background: url("./images/BhaktapurTemple.jpg") center/cover no-repeat;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Frontview {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  padding: 0rem 1rem;
+  text-align: center;
+
+  letter-spacing: var(--mainSpacing);
+}
+.Frontview h1 {
+  font-size: 40px;
+  font-family: Jotia, Verdana, Geneva, sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 11px #fd5c5a;
+  line-height: 1.1;
+  box-sizing: border-box;
+}
+
+.Frontview p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: white;
+  padding-top: 20px;
+}
+@media screen and (min-width: 576px) {
+  .Frontview {
+    padding: 2rem 3rem;
+  }
+  .Frontview h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Frontview {
+    padding: 2rem 6rem;
+  }
+  .Frontview h1 {
+    font-size: 4rem;
+  }
+}
+
+.offer-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.offer-title h4 {
+  font-size: 2rem;
+  letter-spacing: var(--mainSpacing);
+
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 11px #fd5c5a;
+}
+.offer-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+}
+.Flight-input-from {
+  border: 2px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #7e9ec6;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+input {
+  margin-top: 20px;
+  height: 50px;
+  width: 250px;
+
+  color: black;
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+}
+.Flight-input-Air-Date {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-shadow: 1px 1px 11px #fd5c5a;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}

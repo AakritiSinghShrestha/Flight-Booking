@@ -1,0 +1,97 @@
+table {
+  border-collapse: collapse;
+  padding: 20px;
+  align-items: center;
+  /* border: 2px solid red; */
+  color: black;
+  align-items: center;
+  margin-top: 90px;
+  margin: 0 auto;
+}
+/* *,
+:after,
+:before {
+  box-sizing: border-box;
+} */
+.FlightDetails {
+  text-align: center;
+  /* background-color: #2e3d4e; */
+  height: 850px;
+  padding-top: 50px;
+  align-items: center;
+  background: url("../images/temple.jpg") center/cover no-repeat;
+}
+th {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid white;
+  text-shadow: 2px 2px 5px red;
+  background-color: #323d4d;
+  align-items: center;
+}
+td {
+  /* color: white; */
+  padding-right: 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: #7289a8;
+  text-shadow: 2px 2px 5px black;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+tr {
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  background-color: #7289a8;
+  /* background-color: #7289a8; */
+  /* background-color: #323d4d; */
+  /* opacity: 0.9; */
+  align-items: center;
+}
+.button-select {
+  color: white;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: auto;
+  /* width:100% */
+  background-color: #bc4233;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  /* text-shadow: 2px 2px 5px red; */
+}
+/* .button {
+}
+Link {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+/* .display-pic img {
+  height: 200px;
+} */
+.FlightDetails-h1 {
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  padding-top: 30px;
+}
+.button-select:hover {
+  background-color: green;
+  color: aliceblue;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}
